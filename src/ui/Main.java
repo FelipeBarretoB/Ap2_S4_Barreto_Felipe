@@ -11,6 +11,10 @@ import src.Queue;
 public class Main {
 	//Buenas, acabo de importar esto (la clase Queue de el src) y me di cuenta que se llama igual que la clase Queue delas listas, sooo mala mía pero me da pereza cambiarlo
 	public Queue objQueue;
+	public BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+	public BufferedWriter bw= new BufferedWriter(new OutputStreamWriter(System.out));
+
+	
 	public Main() {
 		objQueue= new Queue();
 	}
@@ -18,11 +22,6 @@ public class Main {
 		Main ui=new Main();
 		ui.manageQueues();
 	}
-	BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
-	BufferedWriter bw= new BufferedWriter(new OutputStreamWriter(System.out));
-
-
-
 
 
 	public void manageQueues() {
